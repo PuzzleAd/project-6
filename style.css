@@ -1,0 +1,112 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--cream-bg, #F2EAE2);    
+}
+.container{
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+}
+.image > img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.left_side_div{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+}
+
+.perfume{
+    color: var(--Aurometal-Saurus, #6C7289);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Overline */
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    margin-top: 24px;
+}
+.left_side_div > h1 {
+    color: var(--Gunmetal, #1C232B);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Display */
+    font-family: Fraunces;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 100% */
+    margin-bottom: 20px;
+}
+.text{
+    color: var(--Aurometal-Saurus, #6C7289);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Body */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px; /* 164.286% */
+}
+.price_div{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    margin-bottom: 24px;
+}
+.discounted_price{
+    color: var(--Deep-Aquamarine, #3D8168);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Display */
+    font-family: Fraunces;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 100% */
+}
+.old_price{
+    color: var(--Aurometal-Saurus, #6C7289);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px; /* 176.923% */
+    text-decoration: line-through;
+}
+.add_to_cart{
+    width: 236px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #3D8168;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.add_to_cart > p {
+    color: var(--Pure-White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Button Text */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
